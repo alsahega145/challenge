@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=inter:wght@200;40&display=swap" rel="">
+    <title>Encriptador</title>
+</head>
+    <body>
+        <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link">Encriptador de Texto</a>
+    <header>
+        <img class="Logo" src="./assets/tetsu.png" alt="logo Alejandro">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="20" rows="7" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="Informacion">Solo letras minusculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cooLs="20" rows="5"></textarea>
+            <div>
+                 <button class="copyButton" onclick="btnCopy()">copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+    <footer class="footer">
+        <img class="Logo" src="./assets/tetsu.png" alt="logo Alejandro">
+        <p>Desarrollado por Alejandro Hdz</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+    /* height: 100vh; */
+    height: 100vh; 
+    box-sizing: border-box;
+    background-color: #edf5ef;
+    color: #04ce47;
+}
+
+*{
+    background: #1e6666;
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 45px;
+    line-height: 100%; 
+}
+
+.logo{
+    padding: 20px;
+    margin-left: 20px;
+    width: 15%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: flex;
+    color: #1d0fdf;
+    margin-top: 5px;
+    text-transform: lowercase;
+    font-weight: 20px;
+    font-size: 32px;
+    line-height: 100%;
+    }
+::placeholder{ color: #0a3871;}
+    .text-area:focus{
+        outline: none;
+}
+
+.mensaje{
+ background: rgb(230, 219, 219);
+ background-image: url(./assets/fish.png);
+ background-repeat: no-repeat;
+ border: flex;
+ border-radius: 20px;
+ color: #0a3871;
+margin-top: 5px;
+text-transform: lowercase;
+font-weight: 20px;
+font-size: 32px;
+line-height: 100%;
+
+
+}
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 20px;
+ }
+ .btn-desencriptar {
+    background-color: #d8dfe8;
+    border: 5px solid #0a3871;
+    border-radius: 40px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+   }
+
+ .btn-encriptar {
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    }
+
+   .copyButton{
+    background-color: #0a3871;
+    border: 10px solid #a309496c;
+    border-radius: 24px;
+    color:#bfcbda;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    margin-top: 128px;
+    position: flex;
+    width: 328px;
+   }
+
+   .informacion{
+    color: #495057;
+    font-size: 5px;
+   }
+   
+   .footer{
+    padding: 24px;
+    color: #b30c0c;
+    background-color: #076e85;
+    text-align: center;
+    font-family: 'Monserrat', 'sans-serif';
+    font-size: 24px;
+    font-weight: 400;
+    
+}   
+
